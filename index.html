@@ -9,8 +9,57 @@
 </head>
 <body>
     <!-------------NAVBAR------------------->
+    <nav class="navbar">
+    
+    </nav>
     <!-------------HOME--------------------->
+    <section>
+        <img class="mySlides" src="img/1.jpeg" style="width:100%">
+        <img class="mySlides" src="img/2.jpeg" style="width:100%">
+        <img class="mySlides" src="img/3.jpeg" style="width:100%">
+      </section>
+    
+      <script>
+        // Automatic Slideshow - change image every 3 seconds
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(carousel, 3000);
+        }
+        </script>
+        
     <!-------------ABOUT US----------------->
+    <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title about__title">
+              ABOUT US
+            </h2>
+            <p class="about__description">
+                    <b>Prismatrix</b>, the hackathon hosted by <b>IEEE UMIT</b> at the Usha Mittal Institute of Technology, stands as a vibrant celebration of innovation and collaboration. Drawing inspiration from the powerful symbolism inherent in its name, Prismatrix mirrors the way a prism refracts light into a spectrum of colors.<br/>
+                    This hackathon provides a unique stage exclusively crafted for UMIT students, offering them an opportunity to apply their skills, gain insights from industry experts, and forge connections with fellow enthusiasts.
+            </p>    
+          </div>
+
+          <div class="about__img">
+
+            <div class="about__img-overlay">
+              <img src="img/1.jpeg" alt="" class="about__img-two" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+    
     <!-------------STATISTICS--------------->
     <!-------------FOOTER------------------->
 
