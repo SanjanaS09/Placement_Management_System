@@ -1,4 +1,56 @@
 /*   ====NAVBAR=====   */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://images.app.goo.gl/cAEXSansKEthBuWCA') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    background: rgba(255, 255, 255, 0.8); /* Adjust the color and transparency here */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo img {
+    height: 50px; /* Set a specific height for the logo */
+    width: auto;  /* Maintain the aspect ratio */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem; /* Add space between the navigation items */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: rgb(4, 4, 124);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s ease, color 0.3s ease;
+    border-radius: 5px; /* Rounded corners for links */
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: rgb(255, 69, 0); /* Change text color on hover */
+}
 /*   ====HOME=====   */
 /*   ====ANNOUNCEMENT=====   */
 /*   ====ABOUT US=====   */
