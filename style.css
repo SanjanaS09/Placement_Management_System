@@ -160,6 +160,10 @@ body {
     background-color: #fcfcfe;
     padding: 8em 2em;
   }
+ h2 {
+    font-color: rgb(4, 4, 124);
+    align-items: center;
+  }
   
   @keyframes scroll {
     0% {transform: translateX(0);}
