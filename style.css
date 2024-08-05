@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -39,3 +40,177 @@ marquee {
 }
 =======
 >>>>>>> d1eca72d781ba3ab963ac1c191c875dec1fab3fb
+=======
+/*   ====NAVBAR=====   */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://images.app.goo.gl/cAEXSansKEthBuWCA') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    background: rgba(255, 255, 255, 0.8); /* Adjust the color and transparency here */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo img {
+    height: 50px; /* Set a specific height for the logo */
+    width: auto;  /* Maintain the aspect ratio */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem; /* Add space between the navigation items */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: rgb(4, 4, 124);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s ease, color 0.3s ease;
+    border-radius: 5px; /* Rounded corners for links */
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: rgb(255, 69, 0); /* Change text color on hover */
+}
+/*   ====HOME=====   */
+/*   ====ANNOUNCEMENT=====   */
+/*   ====ABOUT US=====   */
+
+/*   ====STATISTICS=====   */
+.counters {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    padding: 3em 2em;
+    background: rgba(4, 4, 124, 0.85);
+    color: #fcfcfe;
+    text-align: center;
+}
+
+.counters > div {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4em 2em;
+}
+
+.counter {
+    position: relative;
+}
+
+.counter h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.counter:not(:last-child)::before {
+    content: '';
+    background: #fcfcfe;
+    position: absolute;
+    width: 2px;
+    height: 3em;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -1em;
+}
+
+@media screen and (max-width: 900px) and (min-width: 500px) {
+    .counters > div {
+        grid-template-columns: 1fr 1fr;
+    }
+    .counter:nth-child(2)::before {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .counters > div {
+        grid-template-columns: 1fr;
+        row-gap: 5em;
+    }
+    .counter:not(:last-child)::before {
+        width: 90%;
+        height: 2px;
+        top: initial;
+        right: initial;
+        bottom: -3em;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+body {
+    background: #fcfcfe;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem; /* Adjust the gap as needed */
+}
+
+.chart {
+    padding: 2rem;
+    border: 1px solid #ff0000;
+    border-radius: 1rem;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.8);
+    flex: 1 1 300px; /* Flex-grow, flex-shrink, flex-basis */
+    max-width: 300px; /* Ensure the max-width is set */
+}
+/*   ====COMPANY LOGO=====   */
+.move{
+    width: 100px;
+    height: 100px;
+    animation: scroll 60s linear infinite;
+  }
+  
+  .slide-track {
+    width: 100%;
+    display: flex;
+    gap: 3em;
+    overflow: hidden;
+  }
+  
+  .slider {
+    margin-top: 70px;
+    background-color: #fcfcfe;
+    padding: 8em 2em;
+  }
+ h2 {
+    font-color: rgb(4, 4, 124);
+    align-items: center;
+  }
+  
+  @keyframes scroll {
+    0% {transform: translateX(0);}
+    100% {transform: translatex(-1000%)}
+  }
+/*   ====FOOTER=====   */
+>>>>>>> f540895b4daf2846eb41e1b5ba32536028c5183a
