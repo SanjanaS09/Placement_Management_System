@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
+/* <<<<<<< HEAD */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -38,9 +38,9 @@ marquee {
     color: #fcfcfe;
     border-right: 2px solid  #fcfcfe;
 }
-=======
+/* =======
 >>>>>>> d1eca72d781ba3ab963ac1c191c875dec1fab3fb
-=======
+======= */
 /*   ====NAVBAR=====   */
 body {
     margin: 0;
@@ -96,6 +96,45 @@ nav ul li a:hover {
 }
 /*   ====HOME=====   */
 /*   ====ANNOUNCEMENT=====   */
+/*   ====HOME=====   */
+/*   ====ANNOUNCEMENT=====   */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.announcements-section {
+    height: 55px;
+    margin-top: 40px;
+    margin-left: 49px;
+    margin-right: 49px;
+    background-color: rgba(4,4,124,0.85);
+    /* border: 4px double#fcfcfe;
+    border-color: red rgb(0, 0, 0); */
+    border: 4px solid   #fcfcfe;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+marquee {
+    font-size: 20px;
+    color: #fcfcfe;
+    white-space: nowrap;
+}
+
+#content {
+    height:max-content;
+    padding-right: 6px;
+    /* border: 3px solid #010195; */
+    width: 20%;
+    font-size: 26px;
+    color: #fcfcfe;
+}
 /*   ====ABOUT US=====   */
 
 /*   ====STATISTICS=====   */
@@ -204,7 +243,7 @@ body {
     padding: 8em 2em;
   }
  h2 {
-    font-color: rgb(4, 4, 124);
+    color: rgb(4, 4, 124);
     align-items: center;
   }
   
@@ -213,4 +252,4 @@ body {
     100% {transform: translatex(-1000%)}
   }
 /*   ====FOOTER=====   */
->>>>>>> f540895b4daf2846eb41e1b5ba32536028c5183a
+/* >>>>>>> f540895b4daf2846eb41e1b5ba32536028c5183a */
