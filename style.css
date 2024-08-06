@@ -58,8 +58,8 @@ nav ul li a:hover {
     color: rgb(255, 69, 0); /* Change text color on hover */
 }
 /*   ====HOME=====   */
-<<<<<<< HEAD
-=======
+/* <<<<<<< HEAD
+======= */
 h1 {
     position: relative;
     text-align: center;
@@ -145,7 +145,8 @@ h1 {
   
 /*   ====ANNOUNCEMENT=====   */
 /*   ====HOME=====   */
->>>>>>> 4862eb37366097e210278e4649b2bb51923c5e48
+/* >>>>>>> 4862eb37366097e210278e4649b2bb51923c5e48 */
+
 /*   ====ANNOUNCEMENT=====   */
 body {
     font-family: Arial, sans-serif;
