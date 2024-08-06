@@ -167,9 +167,9 @@ h1 {
   }
 
   .social-media {
-    position: fixed;
-    bottom: 300px;
-    left: 700px;
+    position: absolute;
+    bottom: 30px;
+    left: 70px;
 }
 
 .social-media a {
